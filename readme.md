@@ -193,7 +193,7 @@ def sbox(input_bits, sbox):
 
 主界面：
 
-<img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241005200547692.png" alt="image-20241005200547692" style="zoom:50%;" />
+<img src="photos\image-20241005200547692.png" alt="image-20241005200547692" style="zoom:50%;" />
 
 有不同的功能可以进行选择：01bit进行加解密，ASCII码加解密，，求解密钥，封装测试。
 
@@ -205,19 +205,19 @@ def sbox(input_bits, sbox):
 
 ​	假设输入明文为10101010，输入密钥为1001011000，加密结果显示如下：
 
-<img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241004193549321.png" alt="image-20241004193549321" style="zoom:50%;" />
+<img src="photos\image-20241004193549321.png" alt="image-20241004193549321" style="zoom:50%;" />
 
 ### （二）第2关：交叉测试
 
 #### 	①其他开发团队的加密结果：
 
-<img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241004204218816.png" alt="image-20241004204218816" style="zoom:50%;" />
+<img src="photos\image-20241004204218816.png" alt="image-20241004204218816" style="zoom:50%;" />
 
 ​		假设明文为10011001，密钥为1100101011，则生成的密文为11111101
 
 #### 	②本开发团队的解密结果：
 
-​		  <img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241004204321916.png" alt="image-20241004204321916" style="zoom:50%;" />
+​		  <img src="photos\image-20241004204321916.png" alt="image-20241004204321916" style="zoom:50%;" />
 
 ​		解出的明文为10011001，交叉测试成功。
 
@@ -296,7 +296,7 @@ def sbox(input_bits, sbox):
 
 ​		输入明文为adadada，密钥为1000101001，加密结果为îìîìîìîü
 
-<img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241004195614481.png" alt="image-20241004195614481" style="zoom:50%;" />
+<img src="photos\image-20241004195614481.png" alt="image-20241004195614481" style="zoom:50%;" />
 
 #### ③ASCII码的局限性：
 
@@ -386,7 +386,7 @@ def unicode2binary(unicode_str):
 
 ##### 实际操作界面：
 
-<img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241005203014630.png" alt="image-20241005203014630" style="zoom:50%;" />
+<img src="photos\image-20241005203014630.png" alt="image-20241005203014630" style="zoom:50%;" />
 
 ### (四)第4关：暴力破解
 
@@ -441,7 +441,7 @@ def unicode2binary(unicode_str):
 
 #### 		②实际操作界面：
 
-<img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241004200634466.png" alt="image-20241004200634466" style="zoom:50%;" />
+<img src="photos\image-20241004200634466.png" alt="image-20241004200634466" style="zoom:50%;" />
 
 ​			假设输入明文为10011011，密文为10101010，一共找到了两把可能的密钥，并记录了分别耗时与总耗时。
 
@@ -482,7 +482,7 @@ def unicode2binary(unicode_str):
 
 #### 		②实际操作界面：
 
-<img src="C:\Users\86151\AppData\Roaming\Typora\typora-user-images\image-20241004201349576.png" alt="image-20241004201349576" style="zoom:50%;" />
+<img src="photos\image-20241004201349576.png" alt="image-20241004201349576" style="zoom:50%;" />
 
 ## 四·总结
 
